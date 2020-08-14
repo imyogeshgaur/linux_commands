@@ -87,8 +87,7 @@
    echo Yogesh Gaur
    printf "Yogesh Gaur"
 ```
-
-### In Linux The files are named according to case senstivity YOGESH.txt and yogesh.txt are different
+ In Linux The files are named according to case senstivity YOGESH.txt and yogesh.txt are different
 
 ### Install a software
 
