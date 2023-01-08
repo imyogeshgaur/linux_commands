@@ -155,3 +155,9 @@
 ```
    service service_name status 
 ```
+
+### Restart a Service
+
+```
+   sudo systemctl start service_name
+```
