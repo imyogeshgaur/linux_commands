@@ -128,16 +128,16 @@
 
 <h3>Code To Copy File from Local To Remote Sever</h3>
 ```
-    scp source_folder remote_desktop_username@remote_desktop_ip:destination_folder
+   scp source_folder remote_desktop_username@remote_desktop_ip:destination_folder
 ```
 
 <h3>Code To Install any Software with root</h3>
 ```
-    sudo apt-get install software_name
+   sudo apt-get install software_name
 ```
 
 <h3>Code To Install any setup via curl</h3>
 ```
-    curl -fsSL curl_url | sudo -E bash - &&\
+   curl -fsSL curl_url | sudo -E bash - &&\
 ```
 
