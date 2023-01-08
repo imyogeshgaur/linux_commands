@@ -126,21 +126,32 @@
    sudo su
 ```
 
-<h3>Code To Copy File from Local To Remote Sever</h3>
+### Code To Copy File from Local To Remote Sever
 
 ```
     scp source_folder remote_desktop_username@remote_desktop_ip:destination_folder
 ```
 
-<h3>Code To Install any Software with root</h3>
+### Code To Install any Software with root
 
 ```
    sudo apt-get install software_name
 ```
 
-<h3>Code To Install any setup via curl</h3>
+### Code To Install any setup via curl
 
 ```
    curl -fsSL curl_url | sudo -E bash - &&\
 ```
 
+### Code To Kill a Process
+
+```
+  kill process_id
+```
+
+### Check the status of service
+
+```
+   service service_name status 
+```
