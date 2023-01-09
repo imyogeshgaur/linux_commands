@@ -1,7 +1,5 @@
 # Linux Commands 
 
-## Basic Comands
-
 ### Change Directory
 
 ```
@@ -112,10 +110,15 @@
    sudo apt install
 ```
 
-### Change the Permission (mode) for Owner Group and Public
+### Add the Permission (mode) for Owner Group and Public
 
 ```
-   chmod
+  chmod +w/+r/+x or +wr/+wx 
+```
+### Remove the Permission (mode) for Owner Group and Public
+
+```
+  chmod -w/-r/-x or -wr/-wx
 ```
 ### List the Processes that take maximum resoureces
 
