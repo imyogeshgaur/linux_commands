@@ -2,30 +2,40 @@
 
 ## Basic Comands
 
-### Change Dirrectory
+### Change Directory
 
 ```
-   cd 
+   cd directory_name
 ```
 ### Make Dirrectory
 
 ```
-   mkdir
+   mkdir directory_name
 ```
 ### Copy File/Folder
 
 ```
-   cp
+   cp file_name complete_location
 ```
 ### Move File/Folder
 
 ```
-   mv
+   mv file_name complete_location
 ```
 ### List Files/Folders of the dirrectory
 
 ```
-   ls
+   ls 
+```
+### List All (hidden as well) Files/Folders of the dirrectory
+
+```
+   ls -a
+```
+### List Files/Folders of the dirrectory with permissions
+
+```
+   ls -l
 ```
 ### Make a blank File
 
@@ -37,30 +47,37 @@
 ```
    pwd
 ```
-### Root Acess
+### Root Acess for a command
 
 ```
-   sudo
+   sudo 
 ```
-## Update the List of Software
+### Root Acess for complete terminal
 
 ```
-   sudo apt-get update (Ubuntu 16)
-   sudo apt update (Ubuntu 18)
+   sudo su
+```
+## Update the APT (software to download other software)
+
+```
+   sudo apt-get update 
 ```
 ### Install The Software
 
 ```
-   sudo apt upgarde
+   sudo apt upgarde software_name
 ```
+### Install The Software
 
+```
+   sudo apt install software_name
+```
 ### List dirrectory Recursively
 
 ``` 
    ls -R
 ```
-
-### make a hidden file
+### make a hidden file\
 
 ```
    touch .yogesh
@@ -94,11 +111,6 @@
 ```
    sudo apt install
 ```
-### List the Permissions of the file
-
-```
-    ls -l
-```
 
 ### Change the Permission (mode) for Owner Group and Public
 
@@ -120,12 +132,6 @@
 ```
    ps -a
 ```
-### Change to super user
-
-```
-   sudo su
-```
-
 ### Code To Copy File from Local To Remote Sever
 
 ```
