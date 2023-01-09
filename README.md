@@ -57,7 +57,7 @@
 ```
    sudo su
 ```
-## Update the APT (software to download other software)
+### Update the APT (software to download other software)
 
 ```
    sudo apt-get update 
@@ -77,7 +77,7 @@
 ``` 
    ls -R
 ```
-### make a hidden file\
+### make a hidden file
 
 ```
    touch .yogesh
