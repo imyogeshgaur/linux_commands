@@ -113,12 +113,12 @@
 ### Add the Permission (mode) for Owner Group and Public
 
 ```
-  chmod +w/+r/+x or +wr/+wx 
+  chmod +w/+r/+x or +wr/+wx file_name
 ```
 ### Remove the Permission (mode) for Owner Group and Public
 
 ```
-  chmod -w/-r/-x or -wr/-wx
+  chmod -w/-r/-x or -wr/-wx file_name
 ```
 ### List the Processes that take maximum resoureces
 
