@@ -1,15 +1,5 @@
 # Linux Commands 
 
-### Change Directory
-
-```
-   cd directory_name
-```
-### Make Dirrectory
-
-```
-   mkdir directory_name
-```
 ### Copy File/Folder
 
 ```
@@ -20,25 +10,17 @@
 ```
    mv file_name complete_location
 ```
-### List Files/Folders of the dirrectory
-
-```
-   ls 
-```
 ### List All (hidden as well) Files/Folders of the dirrectory
 
 ```
-   ls -a
-```
-### List Files/Folders of the dirrectory with permissions
-
-```
-   ls -l
+   ls -a 
+   ls -l (list with Permission)
 ```
 ### Make a blank File
 
 ```
    touch 
+   touch .abc (create a hidden file abc)
 ```
 ### check in Which Dirrectory you are
 
@@ -74,11 +56,6 @@
 
 ``` 
    ls -R
-```
-### make a hidden file
-
-```
-   touch .yogesh
 ```
 ### Show hidden file in list
 
@@ -169,4 +146,8 @@
 
 ```
    sudo systemctl start service_name
+```
+### Get list of all listining ports
+```
+   netstat -ntlp
 ```
